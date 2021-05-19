@@ -3,10 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
-import { users } from './const';
-import CardList from './CardList';
+import App from './App';
 
-ReactDOM.render(<CardList users={users} />,
+ReactDOM.render(<App />,
   document.getElementById('root')
 );
 
